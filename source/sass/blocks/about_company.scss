@@ -1,0 +1,119 @@
+.about_company
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_company::after
+{
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 1053px;
+  background-image: url("../img/about_line.svg");
+  left: 49%;
+}
+
+.about_company__block
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about_company__block
+{
+  font-family: "PT Sans";
+  font-size: 29px;
+  line-height: 36px;
+  color: #383838;
+}
+
+.about_company__lead
+{
+  width: 350px;
+  margin-top: -70px;
+}
+
+.about_company__text
+{
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 24px;
+  color: #383838;
+}
+
+.about_company__block--progress .about_company__img img
+{
+  padding-top: 60px;
+}
+
+.about_company__block--progress .about_company__description
+{
+  padding-top: 140px;
+}
+
+.about_company__block--progress .about_company__img::after
+{
+  content: "";
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  background-image: url("../img/icon_plus.svg");
+  margin-left: 55px;
+  margin-top: 100px;
+  z-index: 999;
+}
+
+.about_company__block--stimul .about_company__img::before
+{
+  content: "";
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  background-image: url("../img/icon_stimul.svg");
+  margin-left: -210px;
+  margin-top: 100px;
+  z-index: 999;
+}
+
+.about_company__block--stimul .about_company__img img
+{
+  padding-top: 60px;
+}
+
+.about_company__block--stimul .about_company__description
+{
+  padding-top: 140px;
+}
+
+.about_company__text
+{
+  margin-top: 20px;
+}
+
+.about_company__block--relations .about_company__img::after
+{
+  content: "";
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  background-image: url("../img/icon_releations.svg");
+  margin-left: 95px;
+  margin-top: 100px;
+  z-index: 999;
+}
+
+.about_company__block--relations .about_company__description
+{
+  padding-top: 140px;
+  width: 350px;
+  text-align: right;
+  position: relative;
+  right: 20px;
+}
+
+.about_company__block--relations .about_company__text
+{
+  margin-left: 20px;
+}

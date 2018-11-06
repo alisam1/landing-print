@@ -1,0 +1,53 @@
+.about
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.aboout__icon
+{
+  width: 220px;
+}
+
+.icon__img
+{
+  height: 109px;
+  text-align: center;
+}
+
+
+.icon__title
+{
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 31px;
+  color: #383838;
+  text-align: center;
+}
+
+.icon__title span
+{
+  display: block;
+}
+
+.icon__description
+{
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 23px;
+  color: #383838;
+  text-align: center;
+}
+
+.icon__description span
+{
+  display: block;
+}
+
+.aboout__icon--renta .icon__description
+{
+  position: relative;
+  bottom: 30px;
+}

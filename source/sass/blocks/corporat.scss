@@ -1,0 +1,28 @@
+.corporat
+{
+  width: 100%;
+  height: 750px;
+  background: rgba(216,216,216,0.20);
+  margin-top: 70px;
+  z-index: 999;
+}
+
+.corporat__all
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.corporat__title
+{
+  width: 500px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: left;
+  padding-top: 55px;
+  position: relative;
+  left: 50px;
+  margin-bottom: 60px;
+}

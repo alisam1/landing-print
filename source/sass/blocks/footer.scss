@@ -1,0 +1,40 @@
+.page-footer
+{
+  height: 315px;
+  background-color: rgba(204,204,204,0.30);
+  border: 1px solid #d5d3d3;
+  z-index: 9998;
+}
+
+.footer__info::after
+{
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 85px;
+  background-image: url("../img/gift.png");
+  margin-left: 600px;
+margin-top: -30px;
+}
+
+.footer__description
+{
+  font-family: "PT Sans-Bold";
+  font-size: 56px;
+  line-height: 72px;
+  color: #383838;
+  text-align: center;
+  z-index: 9999;
+  padding-top: 30px;
+}
+
+.footer__description span
+{
+  font-family: "PT Sans-Bold";
+  font-size: 56px;
+  line-height: 72px;
+  color: #AFCC43;
+  text-align: center;
+  z-index: 9999;
+  padding-top: 30px;
+}

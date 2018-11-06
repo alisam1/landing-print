@@ -1,0 +1,40 @@
+.brand-print
+{
+  height: 750px;
+}
+
+.brand-print
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-print__title
+{
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  left: 0px;
+  margin-bottom: 60px;
+}
+
+.brand-print__description
+{
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.brand-print__img img
+{
+  margin-top: 0px;
+  margin-left: 180px;
+}
