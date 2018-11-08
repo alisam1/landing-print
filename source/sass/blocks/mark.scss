@@ -52,6 +52,48 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .mark
+  {
+    height: 1100px;
+  }
+
+.mark__all
+{
+  flex-direction: column;
+}
+
+.mark__title
+{
+  width: 650px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  left: 50px;
+  margin-bottom: 60px;
+}
+
+.mark__description
+{
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    text-align: left;
+    width:650px;
+}
+
+.mark__img img
+{
+  width: 350px;
+  margin-top: 70px;
+  margin-left: 200px;
+}
 
 }
 
