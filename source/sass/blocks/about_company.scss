@@ -117,3 +117,111 @@
 {
   margin-left: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .about_company::after
+  {
+    display: none;
+  }
+
+  .about_company__block--progress .about_company__img::after
+  {
+    display: none;
+  }
+
+  .about_company__block--stimul .about_company__img::before
+  {
+    display: none;
+  }
+
+  .about_company__block--stimul .about_company__img::before
+  {
+    display: none;
+  }
+
+  .about_company__block--relations .about_company__img::after
+  {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .about_company__block
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_company::after
+  {
+    display: none;
+  }
+
+  .about_company__block--progress .about_company__img::after
+  {
+    display: none;
+  }
+
+  .about_company__block--stimul .about_company__img::before
+  {
+    display: none;
+  }
+
+  .about_company__block--stimul .about_company__img::before
+  {
+    display: none;
+  }
+
+  .about_company__block--relations .about_company__img::after
+  {
+    display: none;
+  }
+
+  .about_company__block--stimul
+  {
+    flex-direction: column-reverse;
+  }
+
+  .about_company__block--progress .about_company__img img {
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 280px;
+}
+
+.about_company__block--stimul .about_company__img img {
+     padding-top: 0px;
+    padding-left: 35px;
+    width: 280px;
+}
+
+.about_company__block--relations .about_company__img img {
+     padding-top: 0px;
+    padding-left: 35px;
+    width: 280px;
+}
+
+  .about_company__lead {
+    margin-left: 40px;
+    width: 280px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+
+}
+
+.about_company__block--relations .about_company__description {
+    padding-top: 140px;
+    width: auto;
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+
+.about_company__block--relations .about_company__text {
+    margin-left: -20px;
+}
+
+
+}
